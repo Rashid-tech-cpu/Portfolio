@@ -1,0 +1,249 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+text-decoration: none;
+list-style: none;
+
+}
+.header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 35px 12%;
+    background-color: black;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+
+}
+.logo:hover{
+    color:orangered;
+    text-shadow: 0 0 25px orangered,
+                 0 0 50px orangered;
+        transform: scale(1.1);         
+}
+span{
+    color: orangered;
+
+}
+.navbar a{
+    font-size: 18px;
+    color:white;
+    font-weight: 500;
+    margin: 0 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active{
+    color:orangered;
+    border-bottom: 3px solid orangered;
+}
+.contact{
+    padding: 10px 28px;
+    background-color: white;
+    color: black;
+    border:2px solid transparent;
+    border-radius: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+.contact:hover{
+    background-color: gray;
+    box-shadow: 0 0 25px orangered;
+    color: white;
+
+}
+.home{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(red, green, blue);
+    display: flex;
+    align-items: center;
+    gap: 7em;
+    padding: 30px 12% 0;
+}
+.home-content{
+    max-width: 800px;
+}
+
+
+.home-content h1{
+    font-size: px;
+    line-height: 1.2;
+
+}
+.home-content p{
+    font-size: 18px;
+    margin: 15px 0 40;
+}
+.btn-box{
+    width: 200px;
+    display: flex;
+    gap: 3em;
+}
+.btn-1{
+    padding: 5px 20px;
+    background-color: rgb(191, 82, 82);
+    color: white;
+    border: 7px solid transparent;
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition:0.3s ease;
+    cursor:pointer;
+}
+.btn-1:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 8px 20px;
+    background-color: black;
+    color: white;
+    border: 2px solid black ;
+    border-radius: 8px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    transition: 0.7 ease;
+    cursor: pointer;
+
+}
+.btn-2:hover{
+    background-color: rgb(244, 242, 242);
+    color: orangered;
+}
+.img-box img{
+    border-radius: 50%;
+     width: 550px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: rgba(3, 0, 0, 0.638);
+    width: 50px;
+}
+.about{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background: rgb(241, 245, 180);
+}
+.about-img img{
+    position: relative;
+    width: 550px;
+    box-shadow: 0 0 25px orangered,
+                0 0 50px orangered;
+border-radius: 50%;
+}
+.about-content h2{
+    text-align: left;
+    color: white;
+    font-size: 42px;
+
+}
+.about-content h3{
+    font-size: 62px;
+    color: white;
+}
+.about-content p{
+    color: white;
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
+.contact
+{
+    background-color: gray;
+}
+.contact h2
+{
+    margin-bottom: 3rem;
+    color: black;
+
+}
+.contact form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+    text-align: center;
+
+}
+.contact-form .input-box input,
+.contact form textarea
+{
+    width: 100%;
+    padding: 2.5rem;
+    font-size: 1.8rem;
+    color: black;
+    border: 2rem;
+    border: 2px solid green;
+    margin: 1.5rem 0;
+}
+#services
+{
+    padding: 50px 70px;
+    width: 100%;
+    height: 100%;
+    background: rgb(0,0,0,0.02);
+    text-align: center;
+}
+.intro h1
+{
+    font-size: 3rem;
+}
+.card
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+}
+.cardbody
+{
+    flex-basis: 30%;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    
+}
+.cardimg img
+{
+     width: 100%;
+}
+
+.footer
+{
+    align-items: center;
+    background: black;
+    color: aliceblue;
+    
+}
